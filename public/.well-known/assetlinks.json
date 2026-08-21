@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.fast.blink",
+    "sha256_cert_fingerprints": [
+      "64:A0:F0:CC:A2:FA:F9:F1:C3:D5:CA:BC:B5:19:A9:E7:2B:1A:F8:25:B6:CC:14:B9:89:C7:4D:44:19:A8:0C:E6"
+    ]
+  }
+}]
