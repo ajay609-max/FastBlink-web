@@ -59,7 +59,7 @@ function DownloadApp() {
           </svg>
         </div>
         <div style={{ fontSize: '16px', fontWeight: 500, color: '#fff', marginBottom: '4px' }}>
-          FastBlink v2.4.1
+          FastBlink v1.0
         </div>
         <div style={{ fontSize: '12px', color: '#666', marginBottom: '16px' }}>
           Android 8.0+ | 13 MB
