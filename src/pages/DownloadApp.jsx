@@ -22,8 +22,8 @@ function DownloadApp() {
         setDone(true)
         // Trigger actual file download
         const link = document.createElement('a')
-        link.href = '/FastBlink_1.0.apk'
-        link.download = 'FastBlink_1.0.apk'
+        link.href = '/FastBlink-1.2.apk'
+        link.download = 'FastBlink-1.2.apk'
         link.click()
       }
     }, 200)
