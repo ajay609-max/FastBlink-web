@@ -22,10 +22,7 @@ function Layout({ children }) {
         zIndex: 100
       }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <circle cx="14" cy="14" r="12" stroke="#fff" strokeWidth="2"/>
-            <path d="M10 14h8M14 10v8" stroke="#fff" strokeWidth="2" strokeLinecap="round"/>
-          </svg>
+          <img src="/logo.png" alt="FastBlink" width="28" height="28" style={{ borderRadius: '7px' }} />
           <span style={{ fontSize: '17px', fontWeight: 500, color: '#fff' }}>FastBlink</span>
         </Link>
 
