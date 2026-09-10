@@ -43,21 +43,13 @@ function DownloadApp() {
         textAlign: 'center',
         marginBottom: '16px'
       }}>
-        <div style={{
-          width: '56px',
-          height: '56px',
-          margin: '0 auto 12px',
-          borderRadius: '14px',
-          border: '2px solid #fff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}>
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <circle cx="14" cy="14" r="12" stroke="#fff" strokeWidth="2"/>
-            <path d="M10 14h8M14 10v8" stroke="#fff" strokeWidth="2" strokeLinecap="round"/>
-          </svg>
-        </div>
+        <img
+          src="/logo.png"
+          alt="FastBlink"
+          width="56"
+          height="56"
+          style={{ margin: '0 auto 12px', borderRadius: '14px', display: 'block' }}
+        />
         <div style={{ fontSize: '16px', fontWeight: 500, color: '#fff', marginBottom: '4px' }}>
           FastBlink v1.2
         </div>

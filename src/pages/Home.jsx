@@ -5,21 +5,13 @@ function Home() {
     <div style={{ padding: '24px 16px' }}>
       {/* Hero */}
       <div style={{ textAlign: 'center', marginBottom: '28px' }}>
-        <div style={{
-          width: '72px',
-          height: '72px',
-          margin: '0 auto 14px',
-          borderRadius: '16px',
-          border: '2px solid #fff',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}>
-          <svg width="36" height="36" viewBox="0 0 28 28" fill="none">
-            <circle cx="14" cy="14" r="12" stroke="#fff" strokeWidth="2"/>
-            <path d="M10 14h8M14 10v8" stroke="#fff" strokeWidth="2" strokeLinecap="round"/>
-          </svg>
-        </div>
+        <img
+          src="/logo.png"
+          alt="FastBlink"
+          width="72"
+          height="72"
+          style={{ margin: '0 auto 14px', borderRadius: '16px', display: 'block' }}
+        />
         <h1 style={{ fontSize: '20px', fontWeight: 500, color: '#fff', margin: '0 0 6px' }}>
           FastBlink Web
         </h1>
