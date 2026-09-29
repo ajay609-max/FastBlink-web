@@ -1,10 +1,22 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.fast.blink",
-    "sha256_cert_fingerprints": [
-      "F9:05:AF:12:0D:0A:78:BB:BC:8D:1F:B9:F4:8B:A9:FD:25:59:07:5C:6D:75:E1:28:50:AF:3A:79:F7:17:64:24"
-    ]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.prasma",
+      "sha256_cert_fingerprints": [
+        "F9:05:AF:12:0D:0A:78:BB:BC:8D:1F:B9:F4:8B:A9:FD:25:59:07:5C:6D:75:E1:28:50:AF:3A:79:F7:17:64:24"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.fast.blink",
+      "sha256_cert_fingerprints": [
+        "F9:05:AF:12:0D:0A:78:BB:BC:8D:1F:B9:F4:8B:A9:FD:25:59:07:5C:6D:75:E1:28:50:AF:3A:79:F7:17:64:24"
+      ]
+    }
   }
-}]
+]
